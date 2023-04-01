@@ -1,0 +1,68 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21.4",
+        "bootstrap": "^5.2.0",
+        "jquery": "^3.6",
+        "laravel-echo": "^1.11.3",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "pusher-js": "^7.0.3",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^12.1.0",
+        "vue": "^2.7.10",
+        "vue-axios": "^3.4.1",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^36.0.1",
+        "@ckeditor/ckeditor5-vue": "^4.0.1",
+        "@ckeditor/ckeditor5-vue2": "^3.0.1",
+        "@smartweb/vue-flash-message": "^0.6.10",
+        "bootstrap-vue": "^2.22.0",
+        "firebase": "^9.8.0",
+        "laravel-vue-pagination": "^2.3.1",
+        "moment": "^2.29.1",
+        "sweetalert2": "^11.4.0",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.4.3",
+        "vform": "^2.1.1",
+        "vue-carousel": "^0.18.0",
+        "vue-infinite-loading": "^2.4.5",
+        "vue-moment": "^4.1.0",
+        "vue-moments-ago": "^0.2.0",
+        "vue-multiselect": "^2.1.6",
+        "vue-router": "^3.5.2",
+        "vue-sidebar-menu": "^4.8.1"
+    },
+    "name": "shop-stroka",
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\"></a></p>",
+    "version": "1.0.0",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sara55mohamed/shop.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sara55mohamed/shop/issues"
+    },
+    "homepage": "https://github.com/sara55mohamed/shop#readme"
+}
